@@ -6,7 +6,7 @@
 
 ## 1. Motivation
 
-Modern code editors, including Visual Studio Code and Zed, struggle significantly when handling large text files (>100MB), particularly simulation logs, database dumps, server logs, and other data files that can reach multiple gigabytes in size. This is a well-documented issue in the Zed editor community (see [Issue #4701](https://github.com/zed-industries/zed/issues/4701)), where users experience freezing, unresponsiveness, and crashes when attempting to open large files.
+Modern code editors, including [Visual Studio Code](https://code.visualstudio.com/) and [Zed](https://zed.dev/), struggle significantly when handling large text files (>100MB), particularly simulation logs, database dumps, server logs, and other data files that can reach multiple gigabytes in size. This is a well-documented issue in the Zed editor community (see [Issue #4701](https://github.com/zed-industries/zed/issues/4701)), where users experience freezing, unresponsiveness, and crashes when attempting to open large files.
 
 For developers and system administrators working with large log files, this limitation forces them to resort to command-line tools like `less`, `grep`, or custom scripts, which lack the convenience and features of a modern editor. The problem is particularly acute in domains such as:
 
